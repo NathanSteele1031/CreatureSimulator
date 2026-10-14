@@ -3,6 +3,7 @@ class Limb:
         self.name = "Limb"
         self.attributes = [] # Describes the state or look of the limb
         self.extremities = []  # These will be hands, feets, claws, etc.
+        self.description = "This is a limb"
 
     def add_attribute(self, given_attribute: str):
         self.attributes.append(given_attribute)
@@ -11,10 +12,7 @@ class Limb:
         self.name = given_name
 
     def describe(self):
-        if self.attributes:
-            print(f"This {self.name} is {self.attributes}")
-        else:
-            print(f"This {self.name} is blank")
+        print(self.description)
 
 def create_limb(name="Limb", attributes=[]) -> Limb:
     if not attributes and name == "limb":
