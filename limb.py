@@ -15,9 +15,10 @@ class Limb:
         else:
             print(f"This {self.name} is blank")
 
-def create_limb(attributes=[]) -> Limb:
-    if not attributes:
+def create_limb(name="Limb", attributes=[]) -> Limb:
+    if not attributes and name == "limb":
         return Limb()
     new_limb = Limb()
     new_limb.attributes = attributes
+    new_limb.set_name = name
     return new_limb
