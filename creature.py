@@ -9,3 +9,6 @@ class Creature:
             self.limbs.append(given_limb)
         else:
             raise TypeError(f"The given_limb is {type(given_limb)} not limb.Limb")
+
+    def describe(self):
+        pass
