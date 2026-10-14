@@ -4,3 +4,9 @@ class Limb:
 
     def add_attribute(self, given_attribute: str):
         self.attributes.append(given_attribute)
+
+    def describe(self):
+        if self.attributes:
+            print(f"This limb is {self.attributes}")
+        else:
+            print("This limb is blank")
