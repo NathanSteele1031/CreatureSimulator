@@ -11,4 +11,5 @@ class Creature:
             raise TypeError(f"The given_limb is {type(given_limb)} not limb.Limb")
 
     def describe(self):
-        pass
+        for selected_limb in self.limbs:
+            selected_limb.describe()
