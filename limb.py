@@ -1,9 +1,13 @@
 class Limb:
     def __init__(self):
+        self.name = "Limb"
         self.attributes = []
 
     def add_attribute(self, given_attribute: str):
         self.attributes.append(given_attribute)
+
+    def set_name(self, given_name: str):
+        self.name = given_name
 
     def describe(self):
         if self.attributes:
