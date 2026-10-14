@@ -3,6 +3,7 @@ import limb
 class Creature:
     def __init__(self):
         self.limbs = []
+        self.attributes = [] # These attributes will count towards all other limbs. Ex. hairy, all limbs will be hairy. 
 
     def add_limb(self, given_limb: limb.Limb):
         if isinstance(given_limb, limb.Limb):
