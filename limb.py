@@ -2,6 +2,7 @@ class Limb:
     def __init__(self):
         self.name = "Limb"
         self.attributes = []
+        self.extremities = []  # These will be hands, feets, claws, etc.
 
     def add_attribute(self, given_attribute: str):
         self.attributes.append(given_attribute)
