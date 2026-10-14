@@ -1,3 +1,4 @@
 {
-    "limbs" : [["arm", "arm", "leg", "leg"]]
+    "limbs" : [["arm", "arm", "leg", "leg"]],
+    "attributes" : ["slightly hairy", "warm blooded"]
 }
