@@ -11,9 +11,9 @@ class Limb:
 
     def describe(self):
         if self.attributes:
-            print(f"This limb is {self.attributes}")
+            print(f"This {self.name} is {self.attributes}")
         else:
-            print("This limb is blank")
+            print(f"This {self.name} is blank")
 
 def create_limb(attributes=[]) -> Limb:
     if not attributes:
