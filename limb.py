@@ -1,3 +1,7 @@
+"""
+This file is to create and organize limbs for the creature class.
+"""
+
 class Limb:
     def __init__(self):
         self.name = "Limb"

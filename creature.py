@@ -1,5 +1,9 @@
 import limb
 
+"""
+This file is used to create and organize the creature class.
+"""
+
 class Creature:
     def __init__(self):
         self.limbs = []
