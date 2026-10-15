@@ -3,5 +3,6 @@ The goal of this project is to make a creature from a generic base class and per
 
 ## Goals
 - A working creature that can act based on body parts.
+    - Be able to create creatures with JSON files. 
 - Altered attributes based on actions towards the body parts.
     - Like a fight, fall, attached liquid, etc
