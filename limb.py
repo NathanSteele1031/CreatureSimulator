@@ -39,4 +39,5 @@ def create_limb_from_file(limb_name: str, attributes=[]) -> Limb:
         limb_data = json.load(file)
     new_limb = create_limb(limb_name, attributes)
     new_limb.add_extremities(limb_data["extremities"])
+    new_limb.description = limb_data["description"]
     return new_limb
