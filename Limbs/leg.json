@@ -1,3 +1,4 @@
 {
-    "extremities" : ["Toed"]
+    "extremities" : ["Toed"],
+    "description" : "This is a leg."
 }
