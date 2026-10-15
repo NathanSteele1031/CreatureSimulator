@@ -28,7 +28,7 @@ def create_limb(name="Limb", attributes=[]) -> Limb:
         return Limb()
     new_limb = Limb()
     new_limb.attributes = attributes
-    new_limb.set_name = name
+    new_limb.set_name(name)
     return new_limb
 
 def create_limb_from_file(limb_name: str, attributes=[]) -> Limb:
